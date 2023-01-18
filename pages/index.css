@@ -1,0 +1,145 @@
+@import url(../vendor/normalize.css);
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/Inter-Regular.woff2) format("woff2"),
+       url(/fonts/Inter-Regular.woff) format("woff");
+}
+
+.page {
+  max-width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family:  'Inter', 'Arial', 'Helvetica', sans-serif;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  border: 1px solid red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+  border: 1px solid red;
+}
+
+.header__lang-links {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__lang-link {
+  text-decoration-line: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+
+.header__lang-link:first-of-type {
+  text-decoration-line: underline;
+  margin-right: 18px;
+}
+
+.logo {
+  background-image: url(/images/header-logo.svg);
+  width: 176px;
+  height: 52px;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.lead__title {
+  max-width: 720px;
+  max-height: 200px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 56px;
+  margin: 0 auto;
+}
+
+.lead__subtitle {
+  display: flex;
+  max-width: 640px;
+  max-height: 72px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding: 32px 0 64px;
+  margin: 0 auto;
+}
+
+.lead__image {
+  max-width: 984px;
+  max-height: 615px;
+  margin: 0 auto;
+}
+
+.lead__caption {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-left: 148px;
+  margin: 0;
+}
+
+.intro {
+  max-width: 690px;
+  min-height: 429px;
+  padding-left: 148px;
+  margin: 0;
+}
+
+.intro__title {
+  max-width: 690px;
+  min-height: 58px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  padding-top: 40px;
+}
+
+.intro__list {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding-top: 33px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  justify-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 92px 0;
+  width: 95%;
+}
+
+.photo-grid__item {
+  width: 100%;
+  padding-bottom: 1%;
+}
