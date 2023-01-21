@@ -1,0 +1,6 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 296px);
+    margin: 0 auto 12px;
+  }
