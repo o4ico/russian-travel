@@ -1,0 +1,14 @@
+.place__paragraph {
+    display: grid;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    margin: 0;
+  }
+
+  .place__paragraph:nth-of-type(2n) {
+    padding-top: 27px;
+   }

@@ -1,0 +1,8 @@
+.place__image {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box;
+  }
