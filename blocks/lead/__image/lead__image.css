@@ -3,4 +3,29 @@
     margin: 0 auto;
     object-fit: cover;
     object-position: center;
+}
+
+@media screen and (min-width: 951px) and (max-width: 1150px){
+
+    .lead__image {
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+
+    .lead__image {
+      width: 100%;
+    }
+}
+  
+@media all and (min-width: 320px) and (max-width: 650px) {
+
+  .lead__image {
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
   }
+}

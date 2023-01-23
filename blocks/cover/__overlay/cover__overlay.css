@@ -10,8 +10,31 @@
     transition: 300ms;
     margin: 0 auto;
     z-index: 1;
-  }
+}
 
   .cover__overlay:hover {
     background-color: rgba(42, 44, 47, 0.8);
+}
+
+  @media screen and (min-width: 951px) and (max-width: 1150px){
+
+    .cover__overlay {
+      min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+
+  .cover__overlay {
+    min-height: 480px;
   }
+}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+
+  .cover__overlay {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+

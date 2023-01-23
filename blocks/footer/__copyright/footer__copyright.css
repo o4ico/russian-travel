@@ -2,4 +2,14 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+ 
+  .footer__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 33px;
   }
+}

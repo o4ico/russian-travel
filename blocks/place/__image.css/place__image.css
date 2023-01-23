@@ -1,8 +1,33 @@
 .place__image {
+  width: 100%;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 951px) and (max-width: 1150px){
+
+  .place__image {
+    min-width: 440px;
+    max-width: 460px;
     width: 100%;
-    grid-row: 2/3;
-    grid-column: 1/2;
-    object-fit: cover;
-    object-position: center;
-    box-sizing: border-box;
   }
+}
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+
+  .place__image {
+    min-width: 340px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+ 
+  .place__image {
+    width: 100%;
+    max-width: 460px;
+    grid-row: 3/4;
+    margin: 0 auto;
+  }
+}

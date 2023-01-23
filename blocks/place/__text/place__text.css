@@ -1,4 +1,21 @@
 .place__text {
     min-width: 228px;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+
+  .place__text {
+    min-width: 288px;
+    max-width: 456px;
   }
+}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+
+  .place__text {
+    max-width: calc(100% - 32px);
+    grid-row: 4/5;
+    margin: 0 auto;
+  }
+}

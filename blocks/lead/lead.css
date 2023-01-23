@@ -3,4 +3,28 @@
     flex-direction: column;
     width: calc(100% - 296px);
     margin: 0 auto;
+}
+
+@media screen and (min-width: 951px) and (max-width: 1150px){
+
+    .lead {
+      width: calc(100% - 96px);
+    }
+}  
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+ 
+    .lead {
+      width: 100%;
+    }
+}  
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+
+  .lead {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
   }
+}

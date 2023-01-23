@@ -3,4 +3,27 @@
     justify-content: space-between;
     width: calc(100% - 96px);
     margin: 28px auto 56px;
+}
+
+@media screen and (min-width: 951px) and (max-width: 1150px){
+  
+    .header {
+      margin: 28px auto 48px;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 950px) {
+    .header {
+      width: calc(100% - 48px);
+      margin: 28px auto 48px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 650px) {
+  .header {
+    width: calc(100% - 32px);
+    min-height: 42px;
+    margin: 16px auto 48px;
   }
+}
+
