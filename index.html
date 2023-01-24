@@ -12,7 +12,7 @@
     <header class="header">
       <div class="logo"></div>
       <div class="header__lang-links">
-        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
@@ -31,11 +31,13 @@
           Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <p class="intro__list">Часовых поясов 11</p>
-        <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-        <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-        <p class="intro__list">Природных заповедников 105</p>
-        <p class="intro__list">Аэропортов 241</p>
+        <ul class="intro__list">
+          <li class="intro__list-item">Часовых поясов <span class="intro__list_number">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list_number">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list_number">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list_number">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list_number">241</span></li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img class="photo-grid__item" src="./images/__item-11.jpg" alt="Поезд">
@@ -57,7 +59,7 @@
           <img class="place__image" src="./images/__image-4.jpg" alt="Куршская коса">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <p class="place__link-text"><a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a></p>
+            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <div class="place__text">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
@@ -70,7 +72,7 @@
           <img class="place__image" src="./images/__image-3.jpg" alt="Кольский">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <p class="place__link-text"><a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a></p>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
           <div class="place__text">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
@@ -84,8 +86,7 @@
           <img class="place__image" src="./images/__image-2.jpg" alt="Алтай">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <p class="place__link-text"><a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ
-              ">YouTube</a></p>
+            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
           </div>
           <div class="place__text">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России. 
@@ -98,7 +99,7 @@
           <img class="place__image" src="./images/__image-1.jpg" alt="Зимний Байкал">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <p class="place__link-text"><a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a></p>
+            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <div class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
@@ -112,7 +113,7 @@
           <img class="place__image" src="./images/__image.jpg" alt="Карелия">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <p class="place__link-text"><a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a></p>
+            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
           <div class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
@@ -129,13 +130,15 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-      </div>
+      <nav class="footer__links">
+        <ul class="footer__link-list">
+          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+          <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2023. Дарья Соколова</p>
     </footer>
 </body>

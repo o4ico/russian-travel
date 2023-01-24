@@ -1,15 +1,5 @@
 .intro__list {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
+    list-style-type: none;
+    padding: 0;
     margin: 0;
-}
-
-@media all and (min-width: 320px) and (max-width: 650px) {
- 
-  .intro__list {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-  }
 }

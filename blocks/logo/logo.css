@@ -1,5 +1,5 @@
 .logo {
-    background-image: url(../../../images/header-logo.svg);
+    background-image: url(../../images/header-logo.svg);
     width: 176px;
     height: 52px;
     background-size: cover;
@@ -9,11 +9,9 @@
 @media all and (min-width: 320px) and (max-width: 650px) {
 
   .logo {
-    background-image: url(../../../images/header-logo.svg);
+    background-image: url(../../images/header-logo.svg);
     max-width: 142px;
     max-height: 42px;
-    background-size: cover;
-    background-position: center;
   }
 }
   

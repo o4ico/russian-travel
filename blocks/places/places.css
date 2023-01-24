@@ -8,10 +8,7 @@
 @media screen and (min-width: 951px) and (max-width: 1150px){
 
   .places {
-    display: flex;
-    flex-direction: column;
     width: calc(100% - 92px);
-    margin: 0 auto 12px;
   }
 }  
 
@@ -19,7 +16,6 @@
 
   .places {
     width: calc(100% - 48px);
-    margin: 0 auto;
   }
 }
 

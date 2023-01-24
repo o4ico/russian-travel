@@ -4,27 +4,31 @@
     line-height: 18px;
     text-decoration: none;
     color: #FFFFFF;
-    padding-right: 18px;
+    margin-right: 18px;  
+    transition: 300ms;
+  }
+    
+  .footer__link:hover {
+    opacity: 0.8;
   }
 
   .footer__link:last-of-type {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 @media all and (min-width: 320px) and (max-width: 650px) {
 
   .footer__link {
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     text-decoration: none;
     color: #FFFFFF;
-    padding-right: 0;
-    padding-bottom: 32px;
+    margin-right: 0;
+    margin-bottom: 32px;
   }
 
   .footer__link:last-of-type {
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
  
 }

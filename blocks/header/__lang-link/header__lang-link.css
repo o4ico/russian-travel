@@ -4,17 +4,21 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    margin-right: 18px;  
+    transition: 300ms;
+  }
+    
+.header__lang-link:hover {
+  opacity: 0.8;
 }
-  
-.header__lang-link:first-of-type {
-    text-decoration-line: underline;
-    margin-right: 18px;
+
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 @media all and (min-width: 320px) and (max-width: 650px) {
 
   .header__lang-link {
-    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
   }
