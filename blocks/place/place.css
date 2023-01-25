@@ -19,7 +19,7 @@
 @media screen and (min-width: 651px) and (max-width: 900px) {
 
     .place {
-      grid-template-columns: minmax(min-content, 340px) minmax(288px, max-content);
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       margin: 0 auto;
       gap: 48px 28px;
       margin-bottom: 72px;
